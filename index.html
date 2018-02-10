@@ -4,10 +4,15 @@
     <title>Friendly Router Database</title>
     <meta charset="utf-8">
     <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
   </head>
   <body>
     <div id="app" class="container">
-      "test"
+      <ul id="products">
+	<li v-for="product in products">
+	  <a v-bind:href="product.url">{{ product.name }}</a>
+	</li>
+      </ul>
     </div>
     <script src="friendly-router.js"></script>
   </body>
