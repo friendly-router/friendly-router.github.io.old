@@ -1,3 +1,10 @@
+/* Vue.component('product', {
+    template: '<td><a :href=product.url>{{ product.name }}</a> - {{ product.manufacturer }}</td>',
+    props: ['product'],
+    data: function() { console.log("data"); return { product: { url: "test", name: "test", manufacturer: "test" } } },
+    methods: { test: function() { console.log("test"); } } 
+}) */
+
 new Vue({
     el: '#app',
     data: { products: [] },
@@ -19,4 +26,5 @@ new Vue({
 	       });
     }
 })
+
 

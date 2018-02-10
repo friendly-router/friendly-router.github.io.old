@@ -7,13 +7,17 @@
     <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
   </head>
   <body>
+    <div id="header"></div>
     <div id="app" class="container">
-      <ul id="products">
-	<li v-for="product in products">
-	  <a v-bind:href="product.url">{{ product.name }}</a>
-	</li>
-      </ul>
+      <table>
+	<tr v-for="product in products">
+	  <td><a :href=product.url>{{ product.name }}</a></td>
+	  <td>{{ product.manufacturer }}</td>
+	  <td>{{ product.cpu.core }} | {{ product.cpu.frequency }}</td>
+	</tr>
+      </table>
     </div>
+    <div id="footer"></div>
     <script src="friendly-router.js"></script>
   </body>
 </html>
