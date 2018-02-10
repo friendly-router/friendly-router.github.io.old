@@ -1,7 +1,10 @@
 {
   "template": {
+    "date": "",
     "manufacturer": "",
     "url": "",
+    "datasheet": "",
+    "certificates": [],
     "comment": "",
     "resellers": [
       {
@@ -9,10 +12,23 @@
         "url": ""
       }
     ],
+    "size": {
+      "width": "",
+      "depth": "",
+      "height": ""
+    },
+    "firmware": [],
+    "power": {
+      "min": "",
+      "max": "",
+      "supply": ""
+    },
     "cpu": {
       "type": "",
       "frequency": "",
-      "core": ""
+      "core": "",
+      "link": "",
+      "chipset": ""
     },
     "ram": {
       "type": "",
@@ -27,18 +43,35 @@
       "interfaces": [
         {
           "manufacturer": "",
-          "driver": "",
           "amount": 0
         }
       ]
     },
     "support": {
-      "linux": {},
-      "freebsd": {},
-      "openbsd": {},
-      "netbsd": {},
-      "dragonflybsd": {},
-      "windows": {}
+      "linux": {
+        "links": [],
+        "drivers": []
+      },
+      "freebsd": {
+        "links": [],
+        "drivers": []
+      },
+      "openbsd": {
+        "links": [],
+        "drivers": []
+      },
+      "netbsd": {
+        "links": [],
+        "drivers": []
+      },
+      "dragonflybsd": {
+        "links": [],
+        "drivers": []
+      },
+      "windows": {
+        "links": [],
+        "drivers": []
+      }
     }
   }
 }
