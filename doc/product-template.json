@@ -1,0 +1,44 @@
+{
+  "template": {
+    "manufacturer": "",
+    "url": "",
+    "comment": "",
+    "resellers": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ],
+    "cpu": {
+      "type": "",
+      "frequency": "",
+      "core": ""
+    },
+    "ram": {
+      "type": "",
+      "frequency": "",
+      "amount": {
+        "min": "",
+        "max": "",
+        "current": ""
+      }
+    },
+    "network": {
+      "interfaces": [
+        {
+          "manufacturer": "",
+          "driver": "",
+          "amount": 0
+        }
+      ]
+    },
+    "support": {
+      "linux": {},
+      "freebsd": {},
+      "openbsd": {},
+      "netbsd": {},
+      "dragonflybsd": {},
+      "windows": {}
+    }
+  }
+}
